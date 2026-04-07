@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bm3uqf1s8kg0i"]
+
+[ext_resource type="Texture2D" uid="uid://brb2hrb53waj5" path="res://Rocky Roads/Enemies/penguin.png" id="1_rpqav"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o4473"]
+size = Vector2(18, 15)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=934154686]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1689746050]
+texture = ExtResource("1_rpqav")
+hframes = 4
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1485880933]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1161996525]
+position = Vector2(-2, 8.5)
+shape = SubResource("RectangleShape2D_o4473")
