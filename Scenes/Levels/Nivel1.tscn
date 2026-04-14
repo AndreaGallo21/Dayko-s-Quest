@@ -1,15 +1,15 @@
 [gd_scene format=3 uid="uid://dk8kai4yqieny"]
 
-[ext_resource type="Texture2D" uid="uid://cuf8andicpxuw" path="res://Rocky Roads/Tilesets/tileset_snow.png" id="1_6ba58"]
-[ext_resource type="Texture2D" uid="uid://0qo7dcg6080c" path="res://Rocky Roads/Deco/water_a_8frames.png" id="1_aou4a"]
-[ext_resource type="Texture2D" uid="uid://n1ltgt27cqx0" path="res://Rocky Roads/Backgrounds/mountains_a.png" id="1_otwa2"]
-[ext_resource type="PackedScene" uid="uid://bm3uqf1s8kg0i" path="res://Scenes/Player/Player.tscn" id="2_lgngo"]
-[ext_resource type="Texture2D" uid="uid://bxrqpwclf5v24" path="res://Rocky Roads/Deco/clouds.png" id="3_aou4a"]
-[ext_resource type="Texture2D" uid="uid://c8yhpe28sh3nw" path="res://Rocky Roads/Deco/tree_b.png" id="5_5ckkb"]
-[ext_resource type="Texture2D" uid="uid://pef1qhuijq3r" path="res://Rocky Roads/Deco/tree_trunk.png" id="6_2hh7m"]
+[ext_resource type="Texture2D" uid="uid://0qo7dcg6080c" path="res://Rocky Roads/Deco/water_a_8frames.png" id="1_m11y2"]
+[ext_resource type="Texture2D" uid="uid://n1ltgt27cqx0" path="res://Rocky Roads/Backgrounds/mountains_a.png" id="2_mfa6t"]
+[ext_resource type="Texture2D" uid="uid://cuf8andicpxuw" path="res://Rocky Roads/Tilesets/tileset_snow.png" id="3_bpcxw"]
+[ext_resource type="Texture2D" uid="uid://bxrqpwclf5v24" path="res://Rocky Roads/Deco/clouds.png" id="4_ps6dr"]
+[ext_resource type="Texture2D" uid="uid://c8yhpe28sh3nw" path="res://Rocky Roads/Deco/tree_b.png" id="5_vav74"]
+[ext_resource type="Texture2D" uid="uid://pef1qhuijq3r" path="res://Rocky Roads/Deco/tree_trunk.png" id="6_q14ia"]
+[ext_resource type="PackedScene" uid="uid://bm3uqf1s8kg0i" path="res://Scenes/Player/Player.tscn" id="7_st6jk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lgngo"]
-texture = ExtResource("1_6ba58")
+texture = ExtResource("3_bpcxw")
 2:1/0 = 0
 2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
@@ -68,7 +68,7 @@ texture = ExtResource("1_6ba58")
 8:4/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5ckkb"]
-texture = ExtResource("3_aou4a")
+texture = ExtResource("4_ps6dr")
 0:0/0 = 0
 0:0/0/z_index = -5
 1:0/0 = 0
@@ -93,7 +93,7 @@ texture = ExtResource("3_aou4a")
 3:2/0/z_index = -5
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2hh7m"]
-texture = ExtResource("5_5ckkb")
+texture = ExtResource("5_vav74")
 0:1/0 = 0
 0:1/0/z_index = -5
 1:1/0 = 0
@@ -114,11 +114,11 @@ texture = ExtResource("5_5ckkb")
 2:3/0/z_index = -5
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t8jxu"]
-texture = ExtResource("6_2hh7m")
+texture = ExtResource("6_q14ia")
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pfhxm"]
-texture = ExtResource("1_aou4a")
+texture = ExtResource("1_m11y2")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -197,19 +197,19 @@ sources/7 = SubResource("TileSetAtlasSource_pfhxm")
 z_index = -10
 position = Vector2(607, 183.99998)
 scale = Vector2(4.7421875, 18.8125)
-texture = ExtResource("1_aou4a")
+texture = ExtResource("1_m11y2")
 
 [node name="MountainsA" type="Sprite2D" parent="." unique_id=179293952]
 z_index = -10
 position = Vector2(311.75, 378.5)
 scale = Vector2(2.3886719, 1.9453125)
-texture = ExtResource("1_otwa2")
+texture = ExtResource("2_mfa6t")
 
 [node name="MountainsA2" type="Sprite2D" parent="." unique_id=1554896395]
 z_index = -10
 position = Vector2(908.25, 378.5)
 scale = Vector2(2.2714844, 1.945312)
-texture = ExtResource("1_otwa2")
+texture = ExtResource("2_mfa6t")
 
 [node name="TileMap" type="TileMap" parent="." unique_id=58779222]
 tile_set = SubResource("TileSet_fw4w5")
@@ -221,6 +221,6 @@ layer_1/z_index = -1
 layer_2/name = "DecoracionFrente"
 layer_2/z_index = 5
 
-[node name="Player" parent="." unique_id=934154686 instance=ExtResource("2_lgngo")]
+[node name="Player" parent="." unique_id=934154686 instance=ExtResource("7_st6jk")]
 z_index = 10
 position = Vector2(195, 376)
