@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://cuf8andicpxuw" path="res://Rocky Roads/Tilesets/tileset_snow.png" id="1_6ba58"]
 [ext_resource type="Texture2D" uid="uid://0qo7dcg6080c" path="res://Rocky Roads/Deco/water_a_8frames.png" id="1_aou4a"]
 [ext_resource type="Texture2D" uid="uid://n1ltgt27cqx0" path="res://Rocky Roads/Backgrounds/mountains_a.png" id="1_otwa2"]
-[ext_resource type="PackedScene" uid="uid://bm3uqf1s8kg0i" path="res://Scenes/Player.tscn" id="2_lgngo"]
+[ext_resource type="PackedScene" uid="uid://bm3uqf1s8kg0i" path="res://Scenes/Player/Player.tscn" id="2_lgngo"]
 [ext_resource type="Texture2D" uid="uid://bxrqpwclf5v24" path="res://Rocky Roads/Deco/clouds.png" id="3_aou4a"]
 [ext_resource type="Texture2D" uid="uid://c8yhpe28sh3nw" path="res://Rocky Roads/Deco/tree_b.png" id="5_5ckkb"]
 [ext_resource type="Texture2D" uid="uid://pef1qhuijq3r" path="res://Rocky Roads/Deco/tree_trunk.png" id="6_2hh7m"]

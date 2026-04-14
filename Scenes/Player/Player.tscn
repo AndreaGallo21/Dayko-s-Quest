@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bm3uqf1s8kg0i"]
 
-[ext_resource type="Script" uid="uid://6wbimayechh6" path="res://Scenes/player.gd" id="1_kyqiw"]
+[ext_resource type="Script" uid="uid://6wbimayechh6" path="res://Scenes/Player/player.gd" id="1_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://brb2hrb53waj5" path="res://Rocky Roads/Enemies/penguin.png" id="1_rpqav"]
 
 [sub_resource type="Animation" id="Animation_kyqiw"]
