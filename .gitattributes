@@ -1,2 +1,3 @@
 # Normalize EOL for all files that Git considers text files.
+# No cambiar
 * text=auto eol=lf
