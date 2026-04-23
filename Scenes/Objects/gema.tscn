@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b23xeq5rhr3oo"]
+
+[ext_resource type="Texture2D" uid="uid://bpd8b4l7mgpui" path="res://Rocky Roads/Objects/gem.png" id="1_5nrxm"]
+[ext_resource type="Script" uid="uid://b8cng75k7fpym" path="res://Scenes/Objects/gema.gd" id="1_tg2c0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tg2c0"]
+radius = 7.0
+
+[node name="Gema" type="Area2D" unique_id=594001491]
+script = ExtResource("1_tg2c0")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1302592598]
+texture = ExtResource("1_5nrxm")
+hframes = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=574218711]
+shape = SubResource("CircleShape2D_tg2c0")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
