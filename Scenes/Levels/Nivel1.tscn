@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://pef1qhuijq3r" path="res://Rocky Roads/Deco/tree_trunk.png" id="6_q14ia"]
 [ext_resource type="PackedScene" uid="uid://bm3uqf1s8kg0i" path="res://Scenes/Player/Player.tscn" id="7_st6jk"]
 [ext_resource type="Script" uid="uid://cck5q7kfcxp7q" path="res://Scenes/Levels/zona_muerte.gd" id="8_mfa6t"]
+[ext_resource type="PackedScene" uid="uid://b23xeq5rhr3oo" path="res://Scenes/Objects/gema.tscn" id="9_bpcxw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lgngo"]
 texture = ExtResource("3_bpcxw")
@@ -240,5 +241,8 @@ script = ExtResource("8_mfa6t")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ZonaMuerte" unique_id=2026936648]
 position = Vector2(566, 479)
 shape = SubResource("RectangleShape2D_m11y2")
+
+[node name="Gema" parent="." unique_id=594001491 instance=ExtResource("9_bpcxw")]
+position = Vector2(374, 376)
 
 [connection signal="body_entered" from="ZonaMuerte" to="ZonaMuerte" method="_on_body_entered"]
